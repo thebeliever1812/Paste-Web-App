@@ -103,9 +103,4 @@ To set up the project locally, follow these steps:
 
 ## 🤝 Contributing
 
-Contributions are welcome! To contribute:
-
-- **Fork the repository** on GitHub.
-- **Create a new branch** for your feature or bug fix.
-- **Commit your changes** with a clear message.
-- **Submit a pull request**, and we’ll review it as soon as possible.
+Feel free to fork this repository and submit pull requests to improve the project! 😊
