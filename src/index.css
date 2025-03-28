@@ -37,7 +37,12 @@
   .icons:hover {
     @apply p-2.5 text-xl shadow-xl rounded-md text-white bg-slate-800 border border-slate-800 
   }
+  .icons:active {
+    @apply p-2.5 text-xl shadow-xl rounded-md text-black bg-white border border-slate-400
+  }
 }
+
+
 
 .custom-tooltip {
   background-color: #000 !important;
