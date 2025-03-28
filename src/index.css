@@ -33,10 +33,6 @@
   @apply p-2.5 text-xl shadow-xl rounded-md text-black bg-white border border-slate-400
 }
 
-.icons:active {
-  @apply p-2.5 text-xl shadow-xl rounded-md text-black bg-white border border-slate-400
-}
-
 .custom-tooltip {
   background-color: #000 !important;
   color: #fff !important;

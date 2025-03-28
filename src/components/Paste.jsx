@@ -82,7 +82,7 @@ function Paste() {
 
                                         </div>
                                     </div>
-                                    <div className='flex justify-end my-1 overflow-hidden'>
+                                    <div className='flex justify-start sm:justify-end my-1 overflow-hidden'>
                                         <div className='flex gap-1 justify-center items-center overflow-hidden'><MdDateRange className='text-xl text-slate-800' />{paste.date}</div>
                                     </div>
                                     <hr className='border border-gray-400' />
