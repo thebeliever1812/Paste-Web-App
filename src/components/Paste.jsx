@@ -47,7 +47,7 @@ function Paste() {
             </div>
 
             <div className='content-text-area w-full max-w-[910px]  mx-auto mt-6  border-2 px-2 rounded border-slate-100'>
-                <div className='text-white text-5xl w-full px-7 mt-2 py-6 border bg-slate-600 rounded overflow-hidden font-medium'>
+                <div className='text-white text-5xl md:text-4xl sm:text-2xl w-full px-7 mt-2 py-6 border bg-slate-600 rounded overflow-hidden font-medium'>
                     All Pastes
                 </div>
                 {
@@ -55,11 +55,11 @@ function Paste() {
                         filteredPastes.map((paste) => (
                             <div>
                                 <div key={paste.id} className='pasteBox my-2 bg-slate-200 py-4 px-6 rounded'>
-                                    <div className='flex justify-between mb-1'>
-                                        <div className='text-4xl flex-1 pe-5 overflow-hidden'>
+                                    <div className='upper-box flex justify-between mb-1 flex-col sm:flex-row gap-2'>
+                                        <div className='text-4xl flex-1 pe-5'>
                                             {paste.title}
                                         </div>
-                                        <div className='buttons flex flex-wrap items-start gap-1.5 overflow-hidden'>
+                                        <div className='buttons flex flex-wrap items-start gap-1.5 overflow-hidden '>
                                             <button className='icons' data-tooltip-id='tooltip' data-tooltip-content={`Edit`}>
                                                 <Link to={`/?pasteId=${paste.id}`}><CiEdit /></Link>
                                             </button>
