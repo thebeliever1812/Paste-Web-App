@@ -7,9 +7,6 @@ function ViewPaste() {
     const allPastes = useSelector((state) => state.paste.pastes)
     const paste = allPastes.find((paste) => paste.id === pasteId)
     
-
-
-
     return (
         <div className='content-container w-full max-w-[910px] mx-auto pt-6 px-5'>
             <div className='input-bar flex items-center justify-start w-full max-w-xl'>
