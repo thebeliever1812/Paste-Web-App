@@ -100,7 +100,7 @@ function Paste() {
                         </div>
                 }
             </div>
-            <Tooltip key={filteredPastes.length} id='tooltip' className='custom-tooltip'/>
+            <Tooltip key={filteredPastes.length} id='tooltip' className='custom-tooltip hidden sm:block'/>
         </div>
     )
 }
