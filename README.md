@@ -81,7 +81,7 @@ To set up the project locally, follow these steps:
    ```
 2. **Navigate to the project directory:**
    ```sh
-   cd paste-app
+   cd Paste-Web-App
    ```
 3. **Install dependencies:**
    ```sh
